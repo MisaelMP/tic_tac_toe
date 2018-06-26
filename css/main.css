@@ -12,7 +12,8 @@ h1 {
   font-size: 5vw; }
 
 table {
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-spacing: .8em; }
   table td {
     border: 1px solid #eceada;
     width: 200px;
