@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Eater");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body,
+html {
+  width: 100%;
+  background-color: #0f120c; }
+
+h1 {
+  text-align: center;
+  font-family: 'Eater', cursive;
+  color: #eceada;
+  font-size: 5vw; }
+
+table {
+  margin: 0 auto; }
+  table td {
+    border: 1px solid #eceada;
+    width: 200px;
+    height: 200px;
+    margin: 100%;
+    padding: 0.04em; }
+    table td:hover {
+      cursor: pointer;
+      background-color: #eceada;
+      -webkit-transition: 0.1s ease-out;
+      -o-transition: 0.1s ease-out;
+      transition: 0.1s ease-out;
+      -webkit-transition-delay: 0.2s;
+      -o-transition-delay: 0.2s;
+      transition-delay: 0.2s; }
+
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px; }
+  footer #reset {
+    border-radius: 5px;
+    background-color: #eceada;
+    color: #0f120c;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif; }
+    footer #reset:hover {
+      cursor: pointer;
+      background-color: #0f120c;
+      color: #eceada;
+      -webkit-transition: 0.1s ease-out;
+      -o-transition: 0.1s ease-out;
+      transition: 0.1s ease-out;
+      -webkit-transition-delay: 0.2s;
+      -o-transition-delay: 0.2s;
+      transition-delay: 0.2s; }
+
+.o {
+  color: #4297cd !important;
+  text-align: center;
+  font-size: 7vw; }
+
+.x {
+  color: tomato !important;
+  text-align: center;
+  font-size: 7vw; }
+
+.mas {
+  color: #48139f;
+  text-align: center;
+  font-size: 7vw; }

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Eater');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$primary-color: rgb(15, 18, 12);
+$secondary-color: rgb(236, 234, 218);
+$tertiary-color: rgb(66, 151, 205);
+$fourth: rgb(72, 19, 159);
+
+body,
+html {
+  width: 100%;
+  background-color: $primary-color;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Eater', cursive;
+  color: $secondary-color;
+  font-size: 5vw;
+}
+
+table {
+  margin: 0 auto;
+
+  td {
+    border: 1px solid $secondary-color;
+    width: 200px;
+    height: 200px;
+    margin: 100%;
+    padding: 0.04em;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $secondary-color;
+      transition: 0.1s ease-out;
+      transition-delay: 0.2s;
+    }
+  }
+}
+
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+
+  #reset {
+    border-radius: 5px;
+    background-color: $secondary-color;
+    color: $primary-color;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $primary-color;
+      color: $secondary-color;
+      transition: 0.1s ease-out;
+      transition-delay: 0.2s;
+    }
+  }
+}
+
+.o {
+  color: $tertiary-color !important;
+  text-align: center;
+  font-size: 7vw
+}
+
+.x {
+  color: tomato !important;
+  text-align: center;
+  font-size: 7vw
+}
+
+.mas {
+  color: $fourth;
+  text-align: center;
+  font-size: 7vw
+}
+
+
+// .showcss {
+//   display: block;
+// }
+//
+// .hidecss {
+//   display: none;
+// }
