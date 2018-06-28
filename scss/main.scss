@@ -9,6 +9,7 @@ body,
 html {
   width: 100%;
   background-color: $primary-color;
+  cursor: url(../img/calavera.gif), auto;
 }
 
 h1 {
@@ -20,7 +21,8 @@ h1 {
 
 table {
   margin: 0 auto;
-  border-spacing: .8em;
+  border-spacing: 0.8em;
+
   td {
     border: 1px solid $secondary-color;
     width: 200px;
@@ -29,7 +31,6 @@ table {
     padding: 0.04em;
 
     &:hover {
-      cursor: pointer;
       background-color: $secondary-color;
       transition: 0.1s ease-out;
       transition-delay: 0.2s;
@@ -37,6 +38,24 @@ table {
   }
 }
 
+
+@media (max-width: 500px) {
+
+  table {
+    margin: 0 auto;
+    border-spacing: 0.8em;
+
+    td {
+      border: 1px solid $secondary-color;
+      width: 100px;
+      height: 100px;
+      margin: 100%;
+      padding: 0.04em;
+    }
+
+}
+
+}
 footer {
   display: block;
   margin: 0 auto;
@@ -51,7 +70,6 @@ footer {
     font-family: 'Open Sans', sans-serif;
 
     &:hover {
-      cursor: pointer;
       background-color: $primary-color;
       color: $secondary-color;
       transition: 0.1s ease-out;
@@ -60,23 +78,28 @@ footer {
   }
 }
 
+
+
+
 .o {
   color: $tertiary-color !important;
   text-align: center;
-  font-size: 7vw
+  font-size: 7vw;
 }
 
 .x {
   color: tomato !important;
   text-align: center;
-  font-size: 7vw
+  font-size: 7vw;
 }
 
 .mas {
   color: $fourth;
   text-align: center;
-  font-size: 7vw
+  font-size: 7vw;
 }
+
+
 
 
 // .showcss {

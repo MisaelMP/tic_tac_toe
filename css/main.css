@@ -3,7 +3,8 @@
 body,
 html {
   width: 100%;
-  background-color: #0f120c; }
+  background-color: #0f120c;
+  cursor: url(../img/calavera.gif), auto; }
 
 h1 {
   text-align: center;
@@ -13,7 +14,7 @@ h1 {
 
 table {
   margin: 0 auto;
-  border-spacing: .8em; }
+  border-spacing: 0.8em; }
   table td {
     border: 1px solid #eceada;
     width: 200px;
@@ -21,7 +22,6 @@ table {
     margin: 100%;
     padding: 0.04em; }
     table td:hover {
-      cursor: pointer;
       background-color: #eceada;
       -webkit-transition: 0.1s ease-out;
       -o-transition: 0.1s ease-out;
@@ -29,6 +29,17 @@ table {
       -webkit-transition-delay: 0.2s;
       -o-transition-delay: 0.2s;
       transition-delay: 0.2s; }
+
+@media (max-width: 500px) {
+  table {
+    margin: 0 auto;
+    border-spacing: 0.8em; }
+    table td {
+      border: 1px solid #eceada;
+      width: 100px;
+      height: 100px;
+      margin: 100%;
+      padding: 0.04em; } }
 
 footer {
   display: block;
@@ -42,7 +53,6 @@ footer {
     padding: 5px;
     font-family: 'Open Sans', sans-serif; }
     footer #reset:hover {
-      cursor: pointer;
       background-color: #0f120c;
       color: #eceada;
       -webkit-transition: 0.1s ease-out;
