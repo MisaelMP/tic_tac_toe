@@ -61,35 +61,13 @@ $(document).ready(function() {
       turns++;
       $(this).text(o);
       $(this).addClass("disabled o");
-      // if (tile1.hasClass("o") && tile2.hasClass("o") && tile3.hasClass("o") ||
-      //   tile4.hasClass("o") && tile5.hasClass("o") && tile6.hasClass("o") ||
-      //   tile7.hasClass("o") && tile8.hasClass("o") && tile9.hasClass("o") ||
-      //   tile1.hasClass("o") && tile4.hasClass("o") && tile7.hasClass("o") ||
-      //   tile2.hasClass("o") && tile5.hasClass("o") && tile8.hasClass("o") ||
-      //   tile3.hasClass("o") && tile6.hasClass("o") && tile9.hasClass("o") ||
-      //   tile1.hasClass("o") && tile5.hasClass("o") && tile9.hasClass("o") ||
-      //   tile3.hasClass("o") && tile5.hasClass("o") && tile7.hasClass("o")
-      // ) {
-      //   alert("Winner is : O");
-      //   turns = 0;
-      // }
+
     } else {
 
       turns++;
       $(this).text(x);
       $(this).addClass("disabled x");
-      // if (tile1.hasClass("x") && tile2.hasClass("x") && tile3.hasClass("x") ||
-      //   tile4.hasClass("x") && tile5.hasClass("x") && tile6.hasClass("x") ||
-      //   tile7.hasClass("x") && tile8.hasClass("x") && tile9.hasClass("x") ||
-      //   tile1.hasClass("x") && tile4.hasClass("x") && tile7.hasClass("x") ||
-      //   tile2.hasClass("x") && tile5.hasClass("x") && tile8.hasClass("x") ||
-      //   tile3.hasClass("x") && tile6.hasClass("x") && tile9.hasClass("x") ||
-      //   tile1.hasClass("x") && tile5.hasClass("x") && tile9.hasClass("x") ||
-      //   tile3.hasClass("x") && tile5.hasClass("x") && tile7.hasClass("x")
-      // ) {
-      //   alert("Winner is : X");
-      //   turns = 0;
-      // }
+    
     };
     checkForWinner();
   });
